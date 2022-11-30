@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sass subscription </title>
+  <link rel="shortcut icon" href="image/logo/logo-black.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Plugin'stylesheets  -->
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Custom stylesheet -->
+</head>
+
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
+  <div class="site-wrapper overflow-hidden position-relative">
+    <!-- Site Header -->
+    <!-- Preloader -->
+    <!-- <div id="loading">
+    <div class="preloader">
+     <img src="./image/preloader.gif" alt="preloader">
+   </div>
+   </div>    -->
+    <!--Site Header Area -->
+    
+    <header class="site-header site-header--menu-right landing-14-menu site-header--absolute site-header--sticky">
+      <div class="header-band-area-l-14">
+        <div class="container">
+          
+          <div class="row justify-content-between">
+            <div class="col-lg-6 col-sm-12">
+              <div class="header-band-l-14-items d-flex justify-content-center justify-content-xl-between align-items-center flex-wrap ">
+                <div class="single-brand ">
+                  <h6>Lagos, Nigeria <img src="/image/sun.svg" alt=""> 28°</h6>
+                </div>
+                <div class="single-brand ">
+                  <img src="/image/line.svg" alt="">
+                </div>
+                <div class="single-brand ">
+                  <h6>Thursday , 24 November, 2022</h6>
+                </div>
+                <div class="single-brand ">
+                  <img src="/image/line.svg" alt="">
+                </div>
+                <div class="single-brand ">
+                  <h6>01:05:10 PM</h6>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+              <div class="header-brand-area-l-14-items d-flex justify-content-center justify-content-xl-between align-items-center flex-wrap ">
+                <div class="single-brand ">
+                  <img src="/image/twitter.svg" alt="">
+                </div>
+                <div class="single-brand ">
+                  <img src="/image/whatsapp.svg" alt="">
+                </div>
+                <div class="single-brand " >
+                  <img src="/image/facebook.svg" alt="">
+                </div>
+                <div class="single-brand ">
+                  <img src="/image/instagram.svg" alt="">
+                </div>
+                <div class="single-brand ">
+                  <a href="#" class="btn focus-reset" style="background-color: #FF0000;font-size:12px; font-weight:400;line-height:15px; color:#ffffff">Subscribe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+      <div class="container">
+        <nav class="navbar site-navbar">
+          <!-- Brand Logo-->
+          <div class="brand-logo">
+            <a href="#">
+              <!-- light version logo (logo must be black)-->
+              <img src="image/logo/logo-black.png" alt="" class="light-version-logo">
+              <!-- Dark version logo (logo must be White)-->
+              <img src="image/logo/logo-white.png" alt="" class="dark-version-logo">
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item">News</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item">Sports</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item">Politics</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item">Business</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item">e-Edition</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item">Entertainment</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item">Allure</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item"><i class="fa fa-angle-down" style="border: 1px solid black; padding:.5rem 1rem; border-radius:10px"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item"><i class="fa fa-search"></i></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+         
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <!-- Hero Area -->
+    <div class="hero-area-l-14 position-relative z-index-1 overflow-hidden">
+      <div class="container">
+        <div class="row position-relative justify-content-center">
+          <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 pr-0 " >
+            <div class="content">
+              <h1>Advertise
+                with us</h1>
+              <p>Take advantage of millions of audiences - across-generations - who trust our journalism, as we continue to lead digital publishing into the future in Nigeria.
+              </p>
+              <div >
+                <a href="#" class="btn focus-reset" style="background-color: #FF0000;">Download Print Rate Card</a>
+              <a href="#" class="btn focus-reset" style="background-color: #3F4047;width:200px">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-7 col-lg-5 col-md-8 ">
+            <div class="banner-image-l-14">
+              <img src="./image/her-imag.png" alt="" class="w-100 mt-xl-n10">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-shape-14"></div>
+    </div>
+    <!-- Stats-area section -->
+    <div class="pricing-area-l14 position-relative overflow-hidden z-index-1">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-6 col-lg-7 col-md-10 text-center" >
+            <div class="section-heading-8">
+              <h2>
+                Our Audience</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-around" id="table-price-value" data-pricing-dynamic data-value-active="monthly">
+          
+          <div class="col-md-12 col-sm-8 l-14-pricing-table row">
+            <div class="col-lg-4 col-md-6  p-0">
+              <div class="single-price bg-default text-center  pt-5 pb-10 mb-lg-0" >
+               
+                <!-- stat-top end -->
+                <!-- main-stat start -->
+                <div class="main-price pb-8 ">
+                  <div class="price mt-3 mb-3 position-relative">
+                    <img src="/image/6mill.png" />
+                  </div>
+                 
+                </div>
+                <!-- main-stat end -->
+              </div>
+              <!-- single-stat end -->
+            </div>
+            <div class="col-lg-4 col-md-6  p-0">
+              <!-- single-stat start -->
+              <div class="single-price bg-default text-center  pt-5 pb-10 mb-lg-0" >
+                <!-- stat-top start -->
+               
+                <!-- stat-top end -->
+                <!-- main-stat start -->
+                <div class="main-price pb-8 ">
+                  <div class="price mt-3 mb-3 position-relative">
+                    <img src="/image/40mill.png" />
+                  </div>
+                 
+                </div>
+                <!-- main-stat end -->
+              </div>
+              <!-- single-stat end -->
+            </div>
+            <div class="col-lg-4 col-md-6  p-0">
+              <!-- single-stat start -->
+              <div class="single-price bg-default text-center  pt-5 pb-10 mb-lg-0" >
+                <!-- stat-top start -->
+               
+                <!-- stat-top end -->
+                <!-- main-stat start -->
+                <div class="main-price pb-8 ">
+                  <div class="price mt-3 mb-3 position-relative">
+                    <img src="/image/7-5mill.png" />
+                  </div>
+                 
+                </div>
+                <!-- main-stat end -->
+              </div>
+              <!-- single-stat end -->
+            </div>
+           
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          
+          <div class="col-md-12 col-sm-8 l-14-pricing-table row">
+            <div class="col-lg-6 col-md-6  p-0">
+              <!-- single-stat start -->
+              <div class="single-price bg-default text-center  pt-5 pb-10 mb-lg-0" >
+                <!-- stat-top start -->
+               
+                <!-- stat-top end -->
+                <!-- main-stat start -->
+                <div class="main-price pb-8 ">
+                  <div class="price mt-3 mb-3 position-relative">
+                    <img src="/image/age-dist.png" />
+                  </div>
+                 
+                </div>
+                <!-- main-stat end -->
+              </div>
+              <!-- single-stat end -->
+            </div>
+            <div class="col-lg-6 col-md-6 p-0">
+              <!-- single-stat start -->
+              <div class="single-price bg-default text-center  pt-5 pb-10 mb-lg-0" >
+                <!-- stat-top start -->
+               
+                <!-- stat-top end -->
+                <!-- main-stat start -->
+                <div class="main-price pb-8">
+                  <div class="price mt-3 mb-3 position-relative">
+                    <img class="gender-dist" src="/image/gender-dist.png" />
+                  </div>
+                 
+                </div>
+                <!-- main-stat end -->
+              </div>
+              <!-- single-stat end -->
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Rates-area section -->
+    <div class="pricing-area-l14 position-relative overflow-hidden z-index-1">
+      <div class="container">
+        
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-6 col-lg-7 col-md-10 text-center" >
+            <div class="section-heading-8">
+              <h3 
+              style="color: #000000;font-size: 48px;line-height: 56px;font-weight: 400;"
+              >
+                Vanguard AD Rates</h3>
+             
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center" id="table-price-value" data-pricing-dynamic data-value-active="monthly">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Display (Standard banners)
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="col-md-12 col-sm-8 l-14-pricing-table row">
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Format</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Video player</li>
+                            <li>
+                              Video player</li>
+                            <li>
+                              Video player</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Platform</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Facebook</li>
+                            <li>
+                              Facebook</li>
+                            <li>
+                              Facebook</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Rate</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              N100,000</li>
+                            <li>
+                              N100,000</li>
+                            <li>
+                              N100,000</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Description</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Branded content
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="col-md-12 col-sm-8 l-14-pricing-table row">
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Format</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Video player</li>
+                            <li>
+                              Video player</li>
+                            <li>
+                              Video player</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Platform</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Facebook</li>
+                            <li>
+                              Facebook</li>
+                            <li>
+                              Facebook</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Rate</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              N100,000</li>
+                            <li>
+                              N100,000</li>
+                            <li>
+                              N100,000</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Description</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Social Media
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="col-md-12 col-sm-8 l-14-pricing-table row">
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Format</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Video player</li>
+                            <li>
+                              Video player</li>
+                            <li>
+                              Video player</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Platform</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Facebook</li>
+                            <li>
+                              Facebook</li>
+                            <li>
+                              Facebook</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Rate</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              N100,000</li>
+                            <li>
+                              N100,000</li>
+                            <li>
+                              N100,000</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Description</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Video advertising
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="col-md-12 col-sm-8 l-14-pricing-table row">
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Format</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Video player</li>
+                            <li>
+                              Video player</li>
+                            <li>
+                              Video player</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Platform</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Facebook</li>
+                            <li>
+                              Facebook</li>
+                            <li>
+                              Facebook</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Rate</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              N100,000</li>
+                            <li>
+                              N100,000</li>
+                            <li>
+                              N100,000</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Description</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  Video advertising
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="col-md-12 col-sm-8 l-14-pricing-table row">
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Format</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Video player</li>
+                            <li>
+                              Video player</li>
+                            <li>
+                              Video player</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Platform</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Facebook</li>
+                            <li>
+                              Facebook</li>
+                            <li>
+                              Facebook</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Rate</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              N100,000</li>
+                            <li>
+                              N100,000</li>
+                            <li>
+                              N100,000</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 border p-0">
+                      <!-- single-price start -->
+                      <div class="single-price bg-default text-center  mb-lg-0" >
+                        <!-- price-top start -->
+                        <div class="price-top justify-content-between  py-3 " style="background-color: #A3A6B7">
+                          <!-- <span>Basic</span> -->
+                          <span>Description</span>
+                        </div>
+                        <!-- price-top end -->
+                        <!-- price-body start -->
+                        <div class="price-body" style="background-color: #EDEFF5;">
+                          <ul class="pricing-list with-check-icon list-unstyled">
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                            <li>
+                              Animation crawl inside one of our videos.</li>
+                           
+                          </ul>
+                        </div>
+                        
+                        <!-- price-btn end -->
+                      </div>
+                      <!-- single-price end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+    <div class="brand-area-l-14">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h6>NB: All political, elections related ads will attract 25%</h6>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+
+    <!-- Contact-Area-2 -->
+    <div class="content-area-l-14-2">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-3 col-md-8" >
+            <div class="content-img pr-lg-13">
+              <img src="image/contact-us/pana.png" alt="" class="w-100">
+            </div>
+          </div>
+          <div class="col-xl-4 offset-xl-2 col-lg-9 col-md-8 col-sm-10">
+            <div class="content section-heading-8 text-lg-start text-center">
+              <h2>
+                Get In Touch
+              </h2>
+              <div>
+                <a href="mailto:info@vanguardngr.com" class="btn focus-reset">
+                  <img src="/image/ic_baseline-email.svg" alt="">
+                  <span style="padding-left:15px">info@vanguardngr.com; ads@vanguardngr.com</span>
+                </a>
+              </div>
+             <div>
+              <a href="#" class="btn focus-reset">
+                <img src="/image/contact.svg" alt="">
+                <span style="font-size: 20px; padding-left:15px">Vanguard Digital Advert Executives</span>
+              </a>
+             </div>
+             <div style="background-color:#F8F9FB" class="my-3">
+              <div>
+                <a href="" class="btn focus-reset">
+                  <img src="/image/mdi_user.svg" alt="">
+                  <span style="font-size: 20px; padding-left:15px">Tola Oluwaluyi</span>
+                </a>
+               </div>
+              <div>
+                <a href="mailto:oluwaluyi@vanguardngr.com" class="btn focus-reset">
+                  <img src="/image/ic_baseline-email.svg" alt="">
+                  <span style="font-size: 20px; padding-left:15px">oluwaluyi@vanguardngr.com</span>
+                </a>
+               </div>
+               <div>
+                <a href="telto:08151132811" class="btn focus-reset">
+                  <img src="/image/material-symbols_phone-android-rounded.svg" alt="">
+                  <span style="font-size: 20px; padding-left:15px">0815 113 2811</span>
+                </a>
+               </div>
+              
+              
+            </div>
+             <div style="background-color:#F8F9FB;padding-top:5px" class="my-3">
+              <div>
+                <a href="" class="btn focus-reset">
+                  <img src="/image/mdi_user.svg" alt="">
+                  <span style="font-size: 20px; padding-left:15px">Tola Oluwaluyi</span>
+                </a>
+               </div>
+              <div>
+                <a href="mailto:oluwaluyi@vanguardngr.com" class="btn focus-reset">
+                  <img src="/image/ic_baseline-email.svg" alt="">
+                  <span style="font-size: 20px; padding-left:15px">oluwaluyi@vanguardngr.com</span>
+                </a>
+               </div>
+               <div>
+                <a href="telto:08151132811" class="btn focus-reset">
+                  <img src="/image/material-symbols_phone-android-rounded.svg" alt="">
+                  <span style="font-size: 20px; padding-left:15px">0815 113 2811</span>
+                </a>
+               </div>
+              
+              
+            </div>
+             <div style="background-color:#F8F9FB" class="my-3">
+              <div>
+                <a href="" class="btn focus-reset">
+                  <img src="/image/mdi_user.svg" alt="">
+                  <span style="font-size: 20px; padding-left:15px">Tola Oluwaluyi</span>
+                </a>
+               </div>
+              <div>
+                <a href="mailto:oluwaluyi@vanguardngr.com" class="btn focus-reset">
+                  <img src="/image/ic_baseline-email.svg" alt="">
+                  <span style="font-size: 20px; padding-left:15px">oluwaluyi@vanguardngr.com</span>
+                </a>
+               </div>
+               <div>
+                <a href="telto:08151132811" class="btn focus-reset">
+                  <img src="/image/material-symbols_phone-android-rounded.svg" alt="">
+                  <span style="font-size: 20px; padding-left:15px">0815 113 2811</span>
+                </a>
+               </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Area -->
+    <footer class="footer-area-l-12 position-relative">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-6 col-md-11 pl-lg-6" >
+            <div class="row">
+              <div class="col-sm-5 col-xs-3">
+                <div class="footer-widget widget3">
+                  <!-- <p>Help menu</p> -->
+                  <ul class="widget-links pl-0 list-unstyled">
+                    <li><a href="">SWEET CRUDE</a></li>
+                    <li><a href="">EDUCATION</a></li>
+                    <li><a href="">MOTORING</a></li>
+                    <li><a href="">METRO</a></li>
+                    <li><a href="">INTERVIEW</a></li>
+                    <li><a href="">LABOUR</a></li>
+                    <li><a href="">LAW & HUMAN RIGHTS</a></li>
+                    <li><a href="">BUS STOP PARLIAMENT</a></li>
+                    <li><a href="">CRIME GUARD</a></li>
+                    <li><a href="">CRIME ALERT</a></li>
+                    <li><a href="">HOMES & PROPERTY</a></li>
+                    <li><a href="">INVESTORS FORUM</a></li>
+                    <li><a href="">INSURANCE AND YOU</a></li>
+                    <li><a href="">FEATURES</a></li>
+                    <li><a href="">WORSHIP</a></li>
+                    <li><a href="">CONFERENCE HALL</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-4 col-xs-3">
+                <div class="footer-widget widget3">
+                  <p class="widget-title">LIFESTYLE</p>
+                  <ul class="widget-links pl-0 list-unstyled">
+                    <li><a href="">HEALTH </a></li>
+                    <li><a href="">TRAVEL & TOURISM</a></li>
+                    <li><a href="">HUMAN ANGLE</a></li>
+                    <li><a href="">IS IT BEYOND PARDON?</a></li>
+                    <li><a href="">THE ARTS</a></li>
+                    <li><a href="">TUMMY TALKS</a></li>
+                    <li><a href="">WOMAN</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-3 col-xs-3 pl-lg-0">
+                <div class="footer-widget widget3">
+                  <p class="widget-title">MONDAY</p>
+                  <ul class="widget-links pl-0 list-unstyled ">
+                    <li><a href="">SPORTS BASSEY</a></li>
+                    <li><a href="">PEOPLE & POLITICS</a></li>
+                    <li><a href="">RATIONAL RESPECTIVES</a></li>
+                    <li><a href="">SOBOWALE ON BUSINESS</a></li>
+                    <li><a href="">BROKEN LINKS</a></li>
+                    <li><a href="">OWEI LAKEMFA</a></li>
+                  </ul>
+                </div>
+                <div class="footer-widget widget3">
+                  <p class="widget-title">TUESDAY</p>
+                  <ul class="widget-links pl-0 list-unstyled ">
+                    <li><a href="">FEMI ARIBISALA</a></li>
+                    <li><a href="">DISPATCHES FROM AMERICA</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-8 col-sm-11">
+            <div class="footer-widget widget3">
+              <p class="widget-title">WEDNESDAY</p>
+              <ul class="widget-links pl-0 list-unstyled ">
+                <li><a href="">TALKING POINT</a></li>
+                <li><a href="">FOR CRYING OUT LOUD</a></li>
+                <li><a href="">TIP OF A NEW DAWN</a></li>
+              </ul>
+            </div>
+            <div class="footer-widget widget3">
+              <p class="widget-title">THURSDAY</p>
+              <ul class="widget-links pl-0 list-unstyled ">
+                <li><a href="">PEOPLE & POLITICS</a></li>
+                <li><a href="">IS'HAQQ MODIBBO KAWU</a></li>
+                <li><a href="">THE HUB</a></li>
+              </ul>
+            </div>
+            <div class="footer-widget widget3">
+              <p class="widget-title">FRIDAY</p>
+              <ul class="widget-links pl-0 list-unstyled ">
+                <li><a href="">SWEET AND SOUR</a></li>
+                <li><a href="">LIPSTICK</a></li>
+                <li><a href="">OWEI LAKEMFA</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-8 col-sm-11">
+            <div class="footer-widget widget3">
+              <p class="widget-title">SATURDAY</p>
+              <ul class="widget-links pl-0 list-unstyled ">
+                <li><a href="">THE PASSING SCENE</a></li>
+                <li><a href="">MY WORLD</a></li>
+                <li><a href="">FRANK & FAIR</a></li>
+                <li><a href="">MARRIAGE AND FAMILY</a></li>
+                <li><a href="">OIL & GAS SUMITEER</a></li>
+                <li><a href="">BITS & PIECES</a></li>
+              </ul>
+            </div>
+            <div class="footer-widget widget3">
+              <p class="widget-title">SUNDAY</p>
+              <ul class="widget-links pl-0 list-unstyled ">
+                <li><a href="">FRANKLY SPEAKING</a></li>
+                <li><a href="">SUNDAY PERSPECTIVES</a></li>
+                <li><a href="">NIGERIA TODAY</a></li>
+                <li><a href="">THE ORBIT</a></li>
+                <li><a href="">OUTSIDE LOOKING IN</a></li>
+                <li><a href="">JOYFUL HOMES</a></li>
+                <li><a href="">ARTICLE OF FAITH</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="js/vendor.min.js"></script>
+  <script src="./plugins/menu/menu.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
