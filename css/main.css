@@ -2628,7 +2628,9 @@ li.sub-menu--item.nav-item-has-children i {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 53px;
+  height: 70px;
+  line-height: 20px;
+  /* border-bottom: 1px solid #000000; */
   /* or 331% */
   text-align: center;
   letter-spacing: -0.761905px;
