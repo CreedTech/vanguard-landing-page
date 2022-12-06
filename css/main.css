@@ -2999,7 +2999,7 @@ li.sub-menu--item.nav-item-has-children i {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  line-height: 45px;
+  line-height: 15px;
   letter-spacing: -0.321429px;
   color: #FF0000;
 }
@@ -3009,7 +3009,7 @@ li.sub-menu--item.nav-item-has-children i {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  line-height: 30px;
+  line-height: 15px;
   letter-spacing: -0.4px;
   color: #e0e0e0;
 }
@@ -3038,7 +3038,7 @@ li.sub-menu--item.nav-item-has-children i {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  line-height: 45px;
+  line-height: 15px;
   letter-spacing: -0.321429px;
   color: #666666;
   margin-bottom: 5px;
@@ -3049,7 +3049,7 @@ li.sub-menu--item.nav-item-has-children i {
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
-  line-height: 28px;
+  line-height: 15px;
   letter-spacing: -0.4px;
   color: #000000;
   margin-bottom: 20px;
@@ -3062,7 +3062,7 @@ li.sub-menu--item.nav-item-has-children i {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 28px;
+  line-height: 15px;
   color: #666666;
   width: 177px;
   height: 56px;
